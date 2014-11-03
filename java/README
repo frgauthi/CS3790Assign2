@@ -1,0 +1,27 @@
+This program uses threads and semaphores to demonstrate the reader/writer problem and uses 4 readers and 4 writers.
+
+Multiple simultaneous readers are allowed. A writer will block any other writers and readers while its writing.
+
+Readers will block writers from writing until they are done reading.
+
+
+Author: Frankie Gauthier
+CS3790 Assign2
+
+
+
+HOW TO RUN
+----------
+
+type make in the java directory to compile and link the program
+
+type "java JavaSemaphores" to run the program
+
+
+CLONE
+-------
+github url
+
+type git clone "https://github.com/frgauthi/CS3790Assign2"
+
+
